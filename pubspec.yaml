@@ -11,7 +11,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_webrtc: ^0.9.1
+  flutter_webrtc:
+    git:
+      url: https://github.com/duyjack/flutter-webrtc
+      ref: main
   events2: ^1.0.0
   sdp_transform: ^0.3.2
   collection: ^1.16.0
